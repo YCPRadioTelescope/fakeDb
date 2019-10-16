@@ -1,0 +1,63 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "first_name": "Alyssa",
+      "last_name": "McDevitt",
+      "email_address": "amc@walkingDead.com",
+      "company": "none",
+      "phone_number": "0923409830498",
+      "password": "lkajfoqijgabdkjfhj",
+      "active": 0,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "first_name": "Jason",
+      "last_name": "C",
+      "email_address": "something@some.com",
+      "company": "none",
+      "phone_number": "09384098",
+      "password": "asl;dkfj;alkdjf;l",
+      "active": 0,
+      "status": "PENDING"
+    },
+    {
+      "id": 3,
+      "first_name": "Joe",
+      "last_name": "Landau",
+      "email_address": "jland@itSucks.com",
+      "company": "none",
+      "phone_number": "9873498",
+      "password": "alkjsfdojef",
+      "active": 0,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 4,
+      "first_name": "jeff",
+      "last_name": "jeffries",
+      "email_address": "jef@jeff.com",
+      "company": "none",
+      "phone_number": "238984733",
+      "password": "askjdf;lajdfl;kjaf",
+      "active": 0,
+      "status": "PENDING"
+    },
+    {
+      "id": 5,
+      "first_name": "Don",
+      "last_name": "Hake",
+      "email_address": "djHake@ycp.edu",
+      "company": "none",
+      "phone_number": "092340983",
+      "password": "dslkafjdl;kfjas;dlkfj",
+      "active": 0,
+      "status": "PENDING"
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
