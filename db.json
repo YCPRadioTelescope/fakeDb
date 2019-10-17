@@ -54,10 +54,44 @@
       "password": "dslkafjdl;kfjas;dlkfj",
       "active": 0,
       "status": "PENDING"
+    },
+    {
+      "destination": "enardo@ycp.edu",
+      "message": "test email",
+      "subject": "tester email",
+      "id": 6
     }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "weather": [
+    {
+      "Wind_Speed": 25.7,
+      "Wind_Direction": "NNW",
+      "Temperature_degF": 72.6,
+      "Rain_Rate": 0.0,
+      "Rain_Total": 0.0,
+      "Rain_Day": 0.0,
+      "Rain_Month": 1.27,
+      "Barometric_Pressure": 30.52,
+      "Dew_Point": 47.9,
+      "Wind_Chill": 0.0,
+      "Humidity": 12.6,
+      "Heat_Index": 0.0
+    }
   ],
-  "profile": { "name": "typicode" }
+  "thresholds": [
+    {
+      "Wind_Speed": 12,
+      "Snow_Dump_Time": 30
+    }
+  ],
+  "sensorStatus": [
+    {
+      "legend": "0 means good, 1 means danger zone, 2 means stopped or tripped",
+      "gate": 0,
+      "Proximity": 0,
+      "Azimuth_Motor": 0,
+      "Elevation_Motor": 1,
+      "Weather_Station": 0
+    }
+  ]
 }
