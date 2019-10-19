@@ -83,12 +83,25 @@
     }
   ],
   "sensorStatus": [
-
-    {"legend": "0 means good, 1 means danger zone, 2 means stopped or tripped"},
-    {"gate": 0},
-    {"Proximity": 0},
-    {"Azimuth_Motor": 0},
-    {"Elevation_Motor": 1},
-    {"Weather_Station": 0}
+    {
+      "name": "gate",
+      "details" : 0
+    },
+    {
+      "name":"Proximity",
+      "details": 0,
+    },
+    {
+      "name":"Azimuth_Motor",
+      "details" : 0,
+    },
+    {
+      "name":"Elevation_Motor",
+      "details" : 1,
+    },
+    {
+      "name":"Weather_Station",
+      "details" : 0,
+    }
   ]
 }
