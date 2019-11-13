@@ -54,12 +54,6 @@
       "password": "dslkafjdl;kfjas;dlkfj",
       "active": 0,
       "status": "PENDING"
-    },
-    {
-      "destination": "enardo@ycp.edu",
-      "message": "test email",
-      "subject": "tester email",
-      "id": 6
     }
   ],
   "weather": [
