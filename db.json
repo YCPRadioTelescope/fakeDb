@@ -63,18 +63,54 @@
     }
   ],
   "weather": [
-    {"Wind_Speed": 25.7},
-    { "Wind_Direction": "NNW"},
-    { "Temperature_degF": 72.6},
-    { "Rain_Rate": 0.0},
-    { "Rain_Total": 0.0},
-    { "Rain_Day": 0.0},
-    { "Rain_Month": 1.27},
-    { "Barometric_Pressure": 30.52},
-    { "Dew_Point": 47.9},
-    { "Wind_Chill": 0.0},
-    { "Humidity": 12.6},
-    { "Heat_Index": 0.0}
+    {
+      "name": "Wind_Speed",
+      "detail": 25.7
+    },
+    {
+      "name": "Wind_Direction",
+      "detail": "NNW"
+    },
+    {
+      "name": "Temperature_degF",
+      "detail": 72.6
+    },
+    {
+      "name": "Rain_Rate",
+      "detail": 0
+    },
+    {
+      "name": "Rain_Total",
+      "detail": 0
+    },
+    {
+      "name": "Rain_Day",
+      "detail": 0
+    },
+    {
+      "name": "Rain_Month",
+      "detail": 1.27
+    },
+    {
+      "name": "Barometric_Pressure",
+      "detail": 30.52
+    },
+    {
+      "name": "Dew_Point",
+      "detail": 47.9
+    },
+    {
+      "name": "Wind_Chill",
+      "detail": 0
+    },
+    {
+      "name": "Humidity",
+      "detail": 12.6
+    },
+    {
+      "name": "Heat_Index",
+      "detail": 0
+    }
   ],
   "thresholds": [
     {
@@ -84,24 +120,34 @@
   ],
   "sensorStatus": [
     {
+      "id": 0,
       "name": "gate",
-      "details" : 0
-    },
-    {
-      "name":"Proximity",
       "details": 0,
+      "override": 1
     },
     {
-      "name":"Azimuth_Motor",
-      "details" : 0,
+      "id": 1,
+      "name": "Proximity",
+      "details": 2,
+      "override": 0
     },
     {
-      "name":"Elevation_Motor",
-      "details" : 1,
+      "id": 2,
+      "name": "Azimuth_Motor",
+      "details": 1,
+      "override": 0
     },
     {
-      "name":"Weather_Station",
-      "details" : 0,
+      "id": 3,
+      "name": "Elevation_Motor",
+      "details": 0,
+      "override": 0
+    },
+    {
+      "id": 4,
+      "name": "Weather_Station",
+      "details": 2,
+      "override": 0
     }
   ]
 }
